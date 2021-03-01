@@ -1,0 +1,311 @@
+{
+  "HeaderField": {
+    "senderID": "ICEGATEID",
+    "receiverID": "INNSA1",
+    "versionNo": "1.1.0.2",
+    "indicator": "T",
+    "messageID": "SACHM23",
+    "sequenceOrControlNumber": 12345,
+    "date": "20190820",
+    "time": "T12:00",
+    "reportingEvent": "SAM"
+  },
+  "master": {
+    "decRef": {
+      "msgTyp": "F",
+      "prtofRptng": "INNSA1",
+      "jobNo": 12345,
+      "jobDt": "20190806",
+      "rptngEvent": "SAM",
+      "mnfstNoRotnNo": 175912,
+      "mnfstDtRotnDt": "20190716",
+      "vesselTypMvmt": "FI"
+    },
+    "authPrsn": {
+      "sbmtrTyp": "ASC",
+      "sbmtrCd": "AACCM7663A",
+      "authReprsntvCd": "AWLPK4149H",
+      "shpngLineCd": "MSC",
+      "authSeaCarrierCd": "AACCM7663A",
+      "masterName": "CAPT PANKAJ MALHOTRA",
+      "shpngLineBondNmbr": "",
+      "trmnlOprtrCd": "INNSA1NSI1"
+    },
+    "vesselDtls": {
+      "modeOfTrnsprt": "1",
+      "typOfTrnsprtMeans": "10",
+      "trnsprtMeansId": "9309461",
+      "purposeOfCall": "1",
+      "shipTyp": "50"
+    },
+    "voyageDtls": {
+      "voyageNo": "IP931R",
+      "cnvnceRefNmbr": "K0526",
+      "totalNoOfTrnsprtEqmtMnfsted": "2",
+      "crgoDescCdd": "2",
+      "briefCrgoDesc": "CONTAINERISED CARGO",
+      "totalNmbrOfLines": 2,
+      "exptdDtAndTimeOfArvl": "20190808T10:45",
+      "exptdDtAndTimeOfDptr": "20190820T10:45",
+      "nmbrOfPsngrsMnfsted": 0,
+      "nmbrOfCrewMnfsted": 3,
+      "shipItnry": [
+        {
+          "shipItnrySeq": "-3",
+          "prtOfCallCdd": "OMSOH"
+        },
+        {
+          "shipItnrySeq": "-2",
+          "prtOfCallCdd": "SAJEA"
+        },
+        {
+          "shipItnrySeq": "-1",
+          "prtOfCallCdd": "SAJEA"
+        },
+        {
+          "shipItnrySeq": "0",
+          "prtOfCallCdd": "INMUN1",
+          "prtOfCallName": "MUNDRA"
+        },
+        {
+          "shipItnrySeq": "1",
+          "prtOfCallCdd": "INNSA1",
+          "prtOfCallName": "Nhavasheva"
+        },
+        {
+          "shipItnrySeq": "2",
+          "prtOfCallCdd": "INCOK1",
+          "prtOfCallName": "Kochi"
+        },
+        {
+          "shipItnrySeq": "3",
+          "prtOfCallCdd": "LKCMB",
+          "prtOfCallName": "Columbo"
+        }
+      ]
+    },
+    "mastrCnsgmtDec": [
+      {
+        "MCRef": {
+          "lineNo": 1,
+          "mstrBlNo": "MSCUOM379746",
+          "mstrBlDt": "20190804",
+          "consolidatedIndctr": "S",
+          "prevDec": "N",
+          "consolidatorPan": "AACCM7663A"
+        },
+        "locCstm": {
+          "firstPrtOfEntry": "INNSA1",
+          "destPrt": "INNSA1CWC3",
+          "nxtPrtOfUnlading": "",
+          "typOfCrgo": "IM",
+          "itemTyp": "OT",
+          "crgoMvmt": "LC",
+          "natrOfCrgo": "C",
+          "splitIndctr": "N",
+          "nmbrOfPkgs": 400,
+          "typOfPackage": "BGS"
+        },
+        "trnsprtDoc": {
+          "prtOfAcptCdd": "OMSOH",
+          "prtOfAcptName": "SOHA",
+          "prtOfReceiptCdd": "INNSA1",
+          "prtOfReceiptName": "Nhavasheva",
+          "cnsgnrsName": "AL OMAR Industries",
+          "cnsgnrsCd": "",
+          "cnsgnrCdTyp": "",
+          "cnsgnrStreetAddress": "Sohar Main city",
+          "cnsgnrCity": "Sohar",
+          "cnsgnrCntrySubDivName": " ",
+          "cnsgnrCntrySubDivCd": " ",
+          "cnsgnrCntryCd": "OM",
+          "cnsgnrPstcd": " ",
+          "cnsgnesName": "RAJA INDUSTRIES",
+          "cnsgnesCd": "1234512345",
+          "typOfCd": "IEC",
+          "cnsgneStreetAddress": "1st Main Street,Thane ",
+          "cnsgneCity": "Mumbai ",
+          "cnsgneCntrySubDivName": "Maharashtra",
+          "cnsgneCntrySubDiv": "27",
+          "cnsgneCntryCd": "IN",
+          "cnsgnePstcd": "400080",
+          "nameOfAnyOtherNotfdParty": "RAJA INDUSTRIES",
+          "panOfNotfdParty": "ABCDC1234B",
+          "typOfNotfdPartyCd": "PAN",
+          "notfdPartyStreetAddress": "1st Main Street,Thane",
+          "notfdPartyCity": "Mumbai",
+          "notfdPartyCntrySubDivName": "Maharashtra",
+          "notfdPartyCntrySubDiv": "27",
+          "notfdPartyCntryCd": "IN",
+          "notfdPartyPstcd": "400080",
+          "goodsDescAsPerBl": "Poly propylene",
+          "ucrTyp": " ",
+          "ucrCd": " "
+        },
+        "trnsprtDocMsr": {
+          "nmbrOfPkgs": 400,
+          "typsOfPkgs": "PKG",
+          "marksNoOnPkgs": "",
+          "grossWeight": 2380,
+          "netWeight": 2000,
+          "unitOfWeight": "KGS",
+          "invoiceValueOfCnsgmt": 1500000,
+          "crncyCd": "INR"
+        },
+        "itemDtls": [
+          {
+            "hsCd": "390210",
+            "crgoItemSeqNmbr": "1",
+            "crgoItemDesc": "Polypropylene",
+            "unoCd": "ZZZZ",
+            "imdgCd": "ZZ",
+            "nmbrOfPkgs": "",
+            "typOfPkgs": ""
+          }
+        ],
+        "trnsprtEqmt": [
+          {
+            "eqmtSeqNo": 1,
+            "eqmtId": "ACEU1234561",
+            "eqmtTyp": "CN",
+            "eqmtSize": "4000",
+            "eqmtLoadStatus": "FCL",
+            "adtnlEqmtHold": " ",
+            "eqmtSealTyp": "BTSL",
+            "eqmtSealNmbr": "123ED3",
+            "otherEqmtId": " ",
+            "socFlag": "N",
+            "cntrAgntCd": "AACCM7663A",
+            "cntrWeight": 2450.23,
+            "totalNmbrOfPkgs": 220
+          },
+          {
+            "eqmtSeqNo": 2,
+            "eqmtId": "AVRU1234561",
+            "eqmtTyp": "CN",
+            "eqmtSize": "4000",
+            "eqmtLoadStatus": "FCL",
+            "adtnlEqmtHold": " ",
+            "eqmtSealTyp": "BTSL",
+            "eqmtSealNmbr": "123ED5",
+            "otherEqmtId": " ",
+            "socFlag": "N",
+            "cntrAgntCd": "AACCM7663A",
+            "cntrWeight": 2450.23,
+            "totalNmbrOfPkgs": 180
+          }
+        ],
+        "itnry": [
+          {
+            "prtOfCallSeqNmbr": 1,
+            "prtOfCallCdd": "OMSOH",
+            "prtOfCallName": " ",
+            "nxtPrtOfCallCdd": "INNSA",
+            "nxtPrtOfCallName": "",
+            "modeOfTrnsprt": "1"
+          },
+          {
+            "prtOfCallSeqNmbr": 2,
+            "prtOfCallCdd": "INNSA",
+            "prtOfCallName": " ",
+            "nxtPrtOfCallCdd": "INNSA1CWC1",
+            "nxtPrtOfCallName": "",
+            "modeOfTrnsprt": "3"
+          }
+        ]
+      }
+    ],
+    "prsnOnBoard": [
+      {
+        "prsnOnBoardSeqNmbr": 1,
+        "prsnDtls": {
+          "prsnTypCdd": "FM",
+          "prsnFamilyName": "JOHN",
+          "prsnGivenName": "HOWARD",
+          "prsnNatnltyCdd": "US",
+          "psngrInTransitIndctr": 0,
+          "crewmemberRankOrRatingCdd": "CAPTAIN",
+          "psngrPrtOfEmbrktnCdd": "OMSOH",
+          "psngrPrtOfDsmbrktnCdd": "LKCMB",
+          "prsnGenderCdd": "1",
+          "prsnDtOfBirth": "19740808",
+          "prsnPlaceOfBirthName": "New Jersey",
+          "prsnCntryOfBirthCdd": "US"
+        },
+        "prsnId": {
+          "prsnIdDocExpiryDt": "20000808",
+          "prsnIdOrTravelDocIssuingNationCdd": "US",
+          "prsnIdOrTravelDocNmbr": "S90006875",
+          "prsnIdOrTravelDocTypCdd": "980"
+        }
+      },
+      {
+        "prsnOnBoardSeqNmbr": 2,
+        "prsnDtls": {
+          "prsnTypCdd": "FM",
+          "prsnFamilyName": "SOYADI",
+          "prsnGivenName": "ABDUL",
+          "prsnNatnltyCdd": "TR",
+          "psngrInTransitIndctr": 0,
+          "crewmemberRankOrRatingCdd": "ABLESEAM",
+          "psngrPrtOfEmbrktnCdd": "OMSOH",
+          "psngrPrtOfDsmbrktnCdd": "LKCMB",
+          "prsnGenderCdd": "1",
+          "prsnDtOfBirth": "19740808",
+          "prsnPlaceOfBirthName": "Ankara",
+          "prsnCntryOfBirthCdd": "TR"
+        },
+        "prsnId": {
+          "prsnIdDocExpiryDt": "20000808",
+          "prsnIdOrTravelDocIssuingNationCdd": "TR",
+          "prsnIdOrTravelDocNmbr": "T3456875",
+          "prsnIdOrTravelDocTypCdd": "980"
+        }
+      }
+    ],
+    "voyageTransportEquipment": [
+     {
+        "equipmentSequenceNo": 1,
+        "equipmentId": "ACEU1234561",
+        "equipmentType": "CN",
+        "equipmentSize": "4000",
+        "equipmentLoadStatus": "FCL",
+        "additionalEquipmentHold": "",
+        "equipmentSealType": "BTSL",
+        "equipmentSealNumber": "123ED3",
+        "otherEquipmentId": "",
+        "socFlag": "N",
+        "containerAgentCode": "AACCM7663A",
+        "containerWeight": 2430,
+        "totalNumberOfPackages": 220
+          },
+          {
+        "equipmentSequenceNo": 2,
+        "equipmentId": "AVRU1234561",
+        "equipmentType": "CN",
+        "equipmentSize": "4000",
+        "equipmentLoadStatus": "FCL",
+        "additionalEquipmentHold": "",
+        "equipmentSealType": "BTSL",
+        "equipmentSealNumber": "123ED5",
+        "otherEquipmentId": "",
+        "socFlag": "N",
+        "containerAgentCode": "AACCM7663A",
+        "containerWeight": 2430,
+        "totalNumberOfPackages": 180
+          }
+    ]
+  },
+  "digSign": {
+    "startSignature": "",
+    "startCertificate": "",
+    "signerVersion": ""
+  }
+,
+"digSign":
+{
+"startSignature":"UlotIIb5E1Y02A9ddc855TIJ6v10pU4l0JY4HFikXk/31NH3YIfubIaKuHSz/ZvGdi7ywrSnqJVVKiT/beUHiZtbSotp200lXVWDiSc0G7PrahpN2zYgBQS/CsMm7+0BHoUYl3JJK0xItDqhaNiyaAKeoGEixaC5g+mkAgYl9I0+FH19E88WEjagKuroCFx8nKljclQscjmb14WpafmTaqD6iXM38tWTIo4tjT5WpFu/htAYOWZAHevlVdopJ/PywY5tGAVQ/wKrJ44Rpw28QJMBDGGTaeqc6MPQcc28UKheqRHnp+vnJKDJHeAgcex7zV0qK5r4Bza+qw1XKtn8+w==",
+"startCertificate":"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",
+"signerVersion":"1.0"
+}
+}
